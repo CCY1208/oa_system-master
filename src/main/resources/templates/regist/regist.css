@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    display: block;
+    height: 80px;
+    width: 520px;
+    margin: auto;
+    margin-top: 150px;
+}
+ul li {
+    list-style: none;
+    float: left;
+    display: block;
+    height: 80px;
+    width:240px;
+    text-align: center;
+}
+ul a {
+    display: block;
+    background-color: #98ECAC;
+    float: left;
+    line-height: 80px;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    font-family: "Monaco";
+}
+ul a:hover {
+    color: #7C81E2;
+}
+.right40 {
+    margin-left: 40px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    display: block;
+    height: auto;
+    width: 450px;
+    margin: 100px auto;
+}
+form table tr {
+    height: 40px;
+}
+form table tr td {
+    height: 40px;
+    width: 280px;
+    line-height: 40px;
+}
+
+form table tr td input {
+    height: 32px;
+    border: 1px solid #BABABA;
+    border-radius: 6px;
+}
+.alignRight {
+    text-align: right;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: "Monaco";
+    width: 200px;
+}
+.radioMid {
+    vertical-align:middle;
+}
+.submit {
+    display: block;
+    height: 40px;
+    width: 250px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+.btn_login {
+    background-color: #82b2c9;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius:3px;
+    box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.cont_form_login {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  width: 320px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.cont_forms {
+  position: absolute;
+  overflow: hidden;
+  top:100px;
+left: 0px;
+  width: 320px;
+  height: 280px;
+  background-color: #eee;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-ms-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.5s;
+}
